@@ -1,0 +1,13 @@
+# ninja log v5
+0	5	0	clean	923de6d0b0563470
+1	5	0	clean	923de6d0b0563470
+0	5	0	clean	923de6d0b0563470
+0	4	0	clean	923de6d0b0563470
+1	369	674803124	CMakeFiles/myapplication.dir/native-lib.cpp.o	e34a55fbd49d5b47
+370	549	674803125	C:/Users/HYUNJIN/Desktop/mk3/app/build/intermediates/cxx/Debug/5s3m3d4o/obj/armeabi-v7a/libmyapplication.so	a6f2651628691ba9
+0	5	0	clean	923de6d0b0563470
+0	5	0	clean	923de6d0b0563470
+0	6	0	clean	923de6d0b0563470
+0	5	0	clean	923de6d0b0563470
+2	374	674803996	CMakeFiles/myapplication.dir/native-lib.cpp.o	e34a55fbd49d5b47
+375	440	674803996	C:/Users/HYUNJIN/Desktop/mk3/app/build/intermediates/cxx/Debug/5s3m3d4o/obj/armeabi-v7a/libmyapplication.so	a6f2651628691ba9

@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\Software\Desktop\AutoBox_test\mk3\app\.cxx\Debug\506a6714\x86'
+ninja: no work to do.

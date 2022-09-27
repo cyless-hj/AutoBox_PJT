@@ -1,0 +1,7 @@
+Executable : C:\Users\Software\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\Software\Desktop\AutoBox_test\mk3\app\.cxx\Debug\506a6714\armeabi-v7a
+myapplication
+jvmArgs : 
+

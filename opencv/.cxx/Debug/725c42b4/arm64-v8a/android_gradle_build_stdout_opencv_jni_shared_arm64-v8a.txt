@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\HYUNJIN\Desktop\mk3(2)\opencv\.cxx\Debug\725c42b4\arm64-v8a'
+ninja: no work to do.

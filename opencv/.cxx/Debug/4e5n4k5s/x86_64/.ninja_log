@@ -1,0 +1,9 @@
+# ninja log v5
+0	6	0	clean	923de6d0b0563470
+0	5	0	clean	923de6d0b0563470
+0	38	674803126	CMakeFiles/opencv_jni_shared.dir/dummy.cpp.o	684738910560db98
+38	120	674803126	libopencv_jni_shared.a	8a16edead8fc569e
+0	5	0	clean	923de6d0b0563470
+0	4	0	clean	923de6d0b0563470
+0	41	674803999	CMakeFiles/opencv_jni_shared.dir/dummy.cpp.o	684738910560db98
+41	107	674803999	libopencv_jni_shared.a	8a16edead8fc569e

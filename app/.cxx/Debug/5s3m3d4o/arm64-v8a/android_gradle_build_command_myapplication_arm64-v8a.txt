@@ -1,0 +1,7 @@
+Executable : C:\Users\HYUNJIN\AppData\Local\Android\Sdk\cmake\3.18.1\bin\ninja.exe
+arguments : 
+-C
+C:\Users\HYUNJIN\Desktop\mk3\app\.cxx\Debug\5s3m3d4o\arm64-v8a
+myapplication
+jvmArgs : 
+

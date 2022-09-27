@@ -1,0 +1,12 @@
+<resources>
+    <string name="tfe_od_app_name" translation_description="Object Detection demo app [CHAR_LIMIT=40]">TFL Detect</string>
+    <string name="tfe_od_camera_error" translation_description="Error regarding camera support[CHAR_LIMIT=40]">This device doesn\'t support Camera2 API.</string>
+    <string name="datacheck">데이터 확인</string>
+    <string name="startfunction">기능 시작</string>
+    <string name="auto_box">auto_box</string>
+    <string name="ExtractTextbutton">번호 추출</string>
+    <string name="_2000_00_00_00_00_00">2000-00-00 00:00:00</string>
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="autoboxtitle">Auto Box</string>
+</resources>

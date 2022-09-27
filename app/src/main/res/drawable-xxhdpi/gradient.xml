@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <shape xmlns:android="http://schemas.android.com/apk/res/android"
+        android:shape="rectangle">
+
+        <gradient
+            android:angle="90"
+            android:centerColor="#B942FF"
+            android:endColor="#E2B2FF"
+            android:startColor="#E2B2FF" />
+
+        <!--    android:angle="0"-->
+        <!-- angle 0 으로 맞추면 가로 90 은 세로-->
+
+    </shape>

@@ -1,0 +1,3 @@
+C:/Users/Software/Desktop/AutoBox_test/mk3/opencv/.cxx/Debug/3s2g175d/x86_64/CMakeFiles/opencv_jni_shared.dir
+C:/Users/Software/Desktop/AutoBox_test/mk3/opencv/.cxx/Debug/3s2g175d/x86_64/CMakeFiles/edit_cache.dir
+C:/Users/Software/Desktop/AutoBox_test/mk3/opencv/.cxx/Debug/3s2g175d/x86_64/CMakeFiles/rebuild_cache.dir

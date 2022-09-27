@@ -1,0 +1,3 @@
+C:/Users/HYUNJIN/Desktop/mk3(2)/app/.cxx/Debug/6l3l5r1f/armeabi-v7a/CMakeFiles/myapplication.dir
+C:/Users/HYUNJIN/Desktop/mk3(2)/app/.cxx/Debug/6l3l5r1f/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/HYUNJIN/Desktop/mk3(2)/app/.cxx/Debug/6l3l5r1f/armeabi-v7a/CMakeFiles/rebuild_cache.dir

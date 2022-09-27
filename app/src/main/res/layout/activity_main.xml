@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkgrey"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="55dp"
+        android:background="@color/darkgrey"
+        android:fontFamily="@font/absoluteempire"
+        android:gravity="center"
+        android:text="@string/autoboxtitle"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Large"
+        android:textColor="#FFFFFF"
+        android:textSize="60sp"
+        app:layout_constraintBottom_toTopOf="@+id/startFunctionbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/startFunctionbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="73dp"
+        android:background="@color/vividpurple"
+        android:fontFamily="@font/maplestorylight"
+        android:text="@string/startfunction"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/ExtrectTextbutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView9" />
+
+    <Button
+        android:id="@+id/checkDatabutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="106dp"
+        android:background="@color/vividpurple"
+        android:fontFamily="@font/maplestorylight"
+        android:text="@string/datacheck"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ExtrectTextbutton" />
+
+    <Button
+        android:id="@+id/ExtrectTextbutton"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="71dp"
+        android:background="@color/vividpurple"
+        android:fontFamily="@font/maplestorylight"
+        android:text="@string/ExtractTextbutton"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkDatabutton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/startFunctionbutton" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\Seung Hwan Lee\Desktop\AutoBox_test\mk3\app\.cxx\Debug\5r3x5o1o\armeabi-v7a'
+ninja: no work to do.

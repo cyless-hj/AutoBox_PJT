@@ -1,0 +1,3 @@
+C:/Users/HYUNJIN/Desktop/mk4.1/opencv/.cxx/Debug/16495t3y/armeabi-v7a/CMakeFiles/opencv_jni_shared.dir
+C:/Users/HYUNJIN/Desktop/mk4.1/opencv/.cxx/Debug/16495t3y/armeabi-v7a/CMakeFiles/edit_cache.dir
+C:/Users/HYUNJIN/Desktop/mk4.1/opencv/.cxx/Debug/16495t3y/armeabi-v7a/CMakeFiles/rebuild_cache.dir
