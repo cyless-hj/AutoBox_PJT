@@ -1,1 +1,1 @@
-# AutoBox_PJT
+# AutoBox : 차량 번호판을 인식을 통한 사후 처리 지원 시스템
