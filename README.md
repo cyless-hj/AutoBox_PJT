@@ -56,3 +56,34 @@
 <img src = "https://user-images.githubusercontent.com/75618206/203544075-909331fe-a1b2-4cb3-9872-1777432c2638.png">
 <img src = "https://user-images.githubusercontent.com/75618206/203544081-acb3a9d4-3633-4d9b-905b-6c6826109213.png">
 </p>
+
+### 3-2. 차량 번호판 인식을 위한 객체 탐지(Object Detection)
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/75618206/203547490-ad876a95-df26-4b54-a234-6f6be5593ed1.png">
+</p>
+
+- 가해 차량의 정보를 수집, 관리하기 위하여 차량의 번호판을 탐지하여 텍스트로 추출하여 저장하도록 하였다.
+- 이를 위해 먼저 차량 번호판 탐지 모듈을 구현하였다. 
+- 번호판 탐지를 위해 TensorflowLite를 활용하였으며 학습데이터 구축을 위해 1,500장의 번호판 이미지를 직접 라벨링하였다.
+- Tensorflow는 기계학습을 위한 오픈소스 라이브러리로 제안하는 시스템은 모바일 앱에서 구동시키므로 모바일 버전인 TensorflowLite를 활용하였다.
+- 이미지 학습 : SSD MobileNet
+  - 작은 물체 Detecting에 용이
+  - Faster RCNN보다 빨라 해당 모델 선택
+- 이미지 라벨링을 통해 학습 데이터 생성
+  - 이미지 데이터 출처 : https://aihub.or.kr/aidata/27727 (차량 번호판 데이터 셋)
+
+### 3-3. 차량 번호판 텍스트 추출
+- 객체 탐지를 통해 인식된 차량 번호판에서 해당 텍스트를 추출하기 위해 Tesseract를 사용하였다.
+
+<p align="center">
+<img src = "https://user-images.githubusercontent.com/75618206/203548566-85b65798-9670-4f7e-8e83-50e86a361eb0.png">
+</p>
+
+- OpenCV Tesseract를 이용한 번호판 이미지의 텍스트 추출
+- Tesseract
+  - 이미지로부터 텍스트를 인식하고, 추출하는 기능을 OCR(Optical Character Recognition)이라고 한다.
+  - Tesseract는 오프라인 문자인식 기법으로 입력된 이미지의 특징점을 추출하고 그 특징점을 사용하여 이미지에서 텍스트를 인식하고 추출하는 오픈소스 OCR 엔진이다
+    - 입력된 이미지에서 추출한 특징점을 사용하여 문자를 인식.
+    - 이후 특징점과 원본 이미지와의 오차율이 가장 낮은 문자를 선택하는 원리
+  - 번호판에 정해진 한글과 숫자를 학습시켜 추출
+  - 정확도를 높이기 위해 번호판 범위를 좁히고자 네모 모양의 부분을 인식하도록 조정
